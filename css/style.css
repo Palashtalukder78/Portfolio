@@ -1,0 +1,135 @@
+body,html{
+  margin-left:15px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  font-family: sans-serif;
+  background: #000000;
+}
+/*home page style start*/
+.sidebar{
+  float: left;
+  width: 80px;
+  height: 100%;
+  background: #1E1E1E;
+  overflow: hidden;
+  margin-right: 0px;
+  display:block;
+}
+@media(max-width:335px){
+  .sidebar{
+  float: left;
+  width: 60px;
+  height: 100%;
+}
+}
+.sidebar ul{
+  margin: 0px;
+  padding: 0;
+}
+.sidebar ul li{
+  list-style: none;
+}
+.sidebar ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 15px;
+  padding: 10px
+  height: 80px;
+  width: 100%;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  display: block;
+  transition: 0.6S all;
+}
+.sidebar ul li  img{
+  opacity: 0.5  ;
+}
+.sidebar ul li a:hover{
+  background: #000000;
+}
+#home img{
+  height: 750px;
+  width: 70%;
+}
+@media(max-width:768px){
+  #home img{
+  height: 400px;
+  width: 85%
+}
+}
+@media(max-width:300px){
+  #home img{
+  height: 300px;
+  width: 95%
+}
+}
+/*home page style End*/
+#about hr{
+  width:10%;
+  padding: 0;
+  margin: 0;
+  border: 1px dotted #ffffff;
+}
+#about p{
+  color: #757575 ;
+  font-size: 18px;
+  text-align: justify;
+  padding-top:10px; 
+}
+#about .skill{
+  letter-spacing: 5px;
+  line-height: 2.8;
+}
+.card-header{
+  background: #616161;
+}
+#about .card-body hr{
+  border:1px solid #ddd;
+  width: 100%;
+}
+.card-footer{
+  background: #616161;
+}
+#service{
+  opacity: 0.5;
+}
+#service:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+@media(max-width:575px){
+  .small{
+    margin-top: 10px;
+  }
+}
+
+#photos hr{
+  width:10%;
+  padding: 0;
+  margin: 0;
+  border: 1px dotted #ffffff;
+}
+#photos a img{
+  opacity: 0.6;
+}
+#photos a img:hover{
+  opacity: 1;
+}
+
+#contact hr{
+  width:10%;
+  padding: 0;
+  margin: 0;
+  border: 1px dotted #ffffff;
+}
+@media(max-width:576px){
+  .contact2{
+    margin-top:10px;   
+  }
+}
+.background{
+  background: url('../img/contact.jpg');
+}
